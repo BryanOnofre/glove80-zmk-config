@@ -94,8 +94,8 @@
     combos {
         compatible = "zmk,combos";
 
-        underbar {
-            bindings = <&kt UNDERSCORE>;
+        combo_underbar {
+            bindings = <&kp UNDERSCORE>;
             key-positions = <60 61>;
         };
     };
