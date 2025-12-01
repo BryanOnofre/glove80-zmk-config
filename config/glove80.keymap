@@ -98,6 +98,26 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <60 61>;
         };
+
+        combo_cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <47 48>;
+        };
+
+        combo_undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <46 47>;
+        };
+
+        combo_copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <48 49>;
+        };
+
+        combo_paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <49 50>;
+        };
     };
 
     keymap {
