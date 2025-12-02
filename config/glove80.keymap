@@ -118,6 +118,11 @@
             bindings = <&kp LC(V)>;
             key-positions = <49 50>;
         };
+
+        combo_redo {
+            bindings = <&kp LC(Y)>;
+            key-positions = <28 29>;
+        };
     };
 
     keymap {
