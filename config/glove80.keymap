@@ -103,6 +103,11 @@
             bindings = <&tog 4>;
             key-positions = <38 37 36 35 41 42 43 44>;
         };
+
+        context_menu_combo {
+            bindings = <&kp K_CONTEXT_MENU>;
+            key-positions = <48 49>;
+        };
     };
 
     keymap {
