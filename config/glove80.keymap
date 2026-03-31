@@ -106,7 +106,37 @@
 
         context_menu_combo {
             bindings = <&kp K_CONTEXT_MENU>;
-            key-positions = <48 49>;
+            key-positions = <49 50>;
+        };
+
+        enter_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <59 60>;
+        };
+
+        backspace_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <30 31>;
+        };
+
+        delete_combo {
+            bindings = <&kp DELETE>;
+            key-positions = <25 24>;
+        };
+
+        space_combo {
+            bindings = <&kp SPACE>;
+            key-positions = <49 48>;
+        };
+
+        F11_combo {
+            bindings = <&kp F11>;
+            key-positions = <7 6>;
+        };
+
+        F12_combo {
+            bindings = <&kp F12>;
+            key-positions = <8 9>;
         };
     };
 
